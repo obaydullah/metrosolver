@@ -1,0 +1,1866 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metro Solver</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/venobox.min.css" />
+    <link rel="stylesheet" href="./css/select-2.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- Menu Area Start  -->
+    <header class="menu__area">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col d-none d-lg-block">
+            <div class="mainmenu h-100 pe-5">
+              <ul
+                class="h-100 d-flex align-items-center justify-content-between"
+              >
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/aboutus.html">About</a></li>
+                <li>
+                  Services
+                  <i class="fa-solid fa-chevron-down"></i>
+                  <ul>
+                    <li><a href="/service.html">Web Design</a></li>
+                    <li><a href="/service.html">Graphic Design</a></li>
+                    <li><a href="/service.html">Digital Marketing</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col col-lg-3 col-sm-start">
+            <a
+              href="/index.html"
+              class="logo h-100 d-flex align-items-center justify-content-center"
+            >
+              <img src="./images/logo.png" alt="Logo" />
+            </a>
+          </div>
+
+          <div class="col d-none d-lg-block">
+            <div class="mainmenu h-100 ps-5">
+              <ul
+                class="h-100 d-flex align-items-center justify-content-between"
+              >
+                <li><a href="/whitelabelling.html">White Labelling</a></li>
+                <li><a href="/contactus.html">Contact Us</a></li>
+                <li><a href="/signup.html">Sign up</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2 d-lg-none">
+            <div class="h-100 d-flex align-items-center align-self-end">
+              <i class="fa-solid fa-bars p-5 menu__open ml-auto"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Menu Area End  -->
+
+    <!-- Responsive Menu Start -->
+    <div class="responsive__menu--bg"></div>
+    <section class="responsive__menu--area">
+      <div class="responsive__menu--head">
+        <img src="./images/logo.png" alt="" />
+        <i class="fa-solid fa-xmark menu__close"></i>
+      </div>
+
+      <div class="responsive__menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li class="dropdown__item">
+            <div class="text__icon">
+              <span>Service</span>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <ul class="dropdown">
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">Logo Design</a></li>
+              <li><a href="#">T-Shirt Design</a></li>
+            </ul>
+          </li>
+          <li><a href="#">White Labelling</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Sign Up</a></li>
+        </ul>
+      </div>
+
+      <div class="responsive__menu--footer mt-5">
+        <button class="btn__primary btn__sm">
+          <div class="btn__primary--inner">
+            <img src="./images/btn__img.png" alt="Button" />
+            <span>Login</span>
+          </div>
+        </button>
+        <button class="btn__primary btn__sm">
+          <div class="btn__primary--inner">
+            <img src="./images/btn__img.png" alt="Button" />
+            <span>Sign Up</span>
+          </div>
+        </button>
+      </div>
+    </section>
+    <!-- Responsive Menu End -->
+
+    <!-- Hero area Area Start -->
+    <section class="hero__area">
+      <div class="container">
+        <div class="row gx-5 gy-4 mb-4">
+          <div class="col-12 col-lg-4">
+            <h2 class="heading__hero">Creative</h2>
+          </div>
+          <div class="col-12 col-lg-8">
+            <p class="text__primary--18">
+              We specialise in delivering ready-to-use websites, mobile
+              applications, and comprehensive the online business services.
+              We're the agency that pushes boundaries to find the most original,
+              most thoughtfulBased on the description of Metro Solver and the
+              image provided.
+            </p>
+          </div>
+        </div>
+        <div class="row gx-2 gy-3 align-items-center">
+          <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+            <button class="btn__primary btn__lg">
+              <div class="btn__primary--inner">
+                <img src="./images/btn__img.png" alt="Button" />
+                <span>Book a free consulting</span>
+              </div>
+            </button>
+          </div>
+          <div class="col-12 col-lg-8">
+            <h2 class="heading__hero">Digital Agency</h2>
+          </div>
+        </div>
+
+        <img src="./images/hero__img.jpg" alt="" class="hero__img" />
+      </div>
+    </section>
+    <!-- Hero area Area End -->
+
+    <!-- Partners Area Start  -->
+    <section class="partners__area">
+      <div class="partners">
+        <div class="partners__img">
+          <img src="./images/logo-1.png" alt="Partners" />
+        </div>
+        <div class="partners__img">
+          <img src="./images/logo-2.png" alt="Partners" />
+        </div>
+        <div class="partners__img">
+          <img src="./images/logo-3.png" alt="Partners" />
+        </div>
+
+        <div class="partners__img">
+          <img src="./images/logo-2.png" alt="Partners" />
+        </div>
+        <div class="partners__img">
+          <img src="./images/logo-3.png" alt="Partners" />
+        </div>
+        <div class="partners__img">
+          <img src="./images/logo-1.png" alt="Partners" />
+        </div>
+        <div class="partners__img">
+          <img src="./images/logo-2.png" alt="Partners" />
+        </div>
+        <div class="partners__img">
+          <img src="./images/logo-3.png" alt="Partners" />
+        </div>
+      </div>
+    </section>
+    <!-- Partners Area End -->
+
+    <!-- How it works Area Start  -->
+    <section class="how__it__works--area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="section__heading m-auto text-center">
+              <h2 class="heading__primary--64">How to Works?</h2>
+              <p class="text__primary--18">
+                Based on the description of Metro Solver and the image provided,
+                here is a 6-step process that Metro Solver uses to scale a
+                customer's business
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <a
+            class="how__it__works--img"
+            data-autoplay="true"
+            data-vbtype="video"
+            href="https://www.youtube.com/watch?v=-9WS0Nrg57Y"
+          >
+            <i class="fa-solid fa-play"></i>
+            <img src="./images/how__it__works.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="how__it__works--content">
+        <div class="how__it__works--single">
+          <div class="container">
+            <div class="row g-5">
+              <div class="col-12 col-sm-5 d-flex align-items-center">
+                <img src="./images/how__it__works--single-1.png" alt="" />
+              </div>
+              <div class="col-12 col-sm-7">
+                <div class="text__box">
+                  <h5 class="heading__primary--40">Book a Call</h5>
+                  <p class="text__primary--18 fw-normal leading-32">
+                    The final product is delivered to the customer. Metro Solver
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="how__it__works--single active">
+          <div class="container">
+            <div class="row g-5">
+              <div class="col-12 col-sm-5 d-flex align-items-center">
+                <img src="./images/how__it__works--single-1.png" alt="" />
+              </div>
+              <div class="col-12 col-sm-7">
+                <div class="text__box">
+                  <h5 class="heading__primary--40">Book a Call</h5>
+                  <p class="text__primary--18 fw-normal leading-32">
+                    The final product is delivered to the customer. Metro Solver
+                    provides ongoing support and 24/7 customer service to ensure
+                    that the customer's business continues to thrive and scale
+                    effectively
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How it works Area End  -->
+
+    <!-- Why Choose us Area Start  -->
+    <section class="why__choose__us--area">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5 mb-4">
+            <div class="section__heading">
+              <h2 class="heading__primary--64">Why You Choose Metro Solver?</h2>
+              <p class="text__primary--18">
+                We are constantly growing or learning and improving.Enter your
+                personal real estate sanctuary, where finding the ideal home is
+                effortless and comfortable with our assistance.
+              </p>
+              <div>
+                <button class="btn__primary btn__sm">
+                  <div class="btn__primary--inner">
+                    <img src="./images/btn__img.png" alt="Button" />
+                    <span> Book Now</span>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="why__choose--btn">
+              <div class="tooltip__single">
+                <button type="button" class="btn__tooltip rotate__left">
+                  Cancel Anytime
+                </button>
+
+                <div class="custom__tooltip">
+                  <div class="custom__tooltip--inner">
+                    <span>
+                      Metro Solver offers round-the-clock customer service,
+                      ensuring that clients receive support whenever they need
+                      it. This level of availability is crucial for addressing
+                      urgent issues and maintaining client satisfaction.</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="tooltip__single">
+                <button type="button" class="btn__tooltip rotate__right">
+                  24/7 Customer Service
+                </button>
+
+                <div class="custom__tooltip">
+                  <div class="custom__tooltip--inner right__side--arrow">
+                    <span>
+                      Metro Solver offers round-the-clock customer service,
+                      ensuring that clients receive support whenever they need
+                      it. This level of availability is crucial for addressing
+                      urgent issues and maintaining client satisfaction.</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="tooltip__single">
+                <button type="button" class="btn__tooltip rotate__left">
+                  Refer & Earn
+                </button>
+
+                <div class="custom__tooltip">
+                  <div class="custom__tooltip--inner">
+                    <span>
+                      Metro Solver offers round-the-clock customer service,
+                      ensuring that clients receive support whenever they need
+                      it. This level of availability is crucial for addressing
+                      urgent issues and maintaining client satisfaction.</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="tooltip__single">
+                <button type="button" class="btn__tooltip">
+                  Money Back Gurantee
+                </button>
+
+                <div class="custom__tooltip">
+                  <div class="custom__tooltip--inner">
+                    <span>
+                      Metro Solver offers round-the-clock customer service,
+                      ensuring that clients receive support whenever they need
+                      it. This level of availability is crucial for addressing
+                      urgent issues and maintaining client satisfaction.</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Why Choose us Area End  -->
+
+    <!-- Latest Work Area Start  -->
+    <section class="latest__work--area">
+      <div class="container">
+        <div class="latest__work mb-5">
+          <div class="section__heading m-auto text-center">
+            <h2 class="heading__primary--64">Our Latest Works</h2>
+            <p class="text__primary--18">
+              Based on the description of Metro Solver and the image provided,
+              here is a 6-step process that Metro Solver uses to scale a
+              customer's business
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="latest__work__slider--home">
+        <div class="work__slider work__slider--small">
+          <div class="slider__single">
+            <img src="./images/latest__work--small.jpg" alt="" />
+          </div>
+          <div class="slider__single">
+            <img src="./images/latest__work--small.jpg" alt="" />
+          </div>
+          <div class="slider__single">
+            <img src="./images/latest__work--small.jpg" alt="" />
+          </div>
+          <div class="slider__single">
+            <img src="./images/latest__work--small.jpg" alt="" />
+          </div>
+          <div class="slider__single">
+            <img src="./images/latest__work--small.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="work__slider work__slider--big">
+          <div class="slider__single">
+            <img src="./images/lastest__work--big.jpg" alt="" />
+          </div>
+          <div class="slider__single">
+            <img src="./images/lastest__work--big.jpg" alt="" />
+          </div>
+          <div class="slider__single">
+            <img src="./images/lastest__work--big.jpg" alt="" />
+          </div>
+          <div class="slider__single">
+            <img src="./images/lastest__work--big.jpg" alt="" />
+          </div>
+          <div class="slider__single">
+            <img src="./images/lastest__work--big.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="work__slider work__slider--small">
+          <div class="slider__single">
+            <img src="./images/latest__work--small.jpg" alt="" />
+          </div>
+          <div class="slider__single">
+            <img src="./images/latest__work--small.jpg" alt="" />
+          </div>
+          <div class="slider__single">
+            <img src="./images/latest__work--small.jpg" alt="" />
+          </div>
+          <div class="slider__single">
+            <img src="./images/latest__work--small.jpg" alt="" />
+          </div>
+          <div class="slider__single">
+            <img src="./images/latest__work--small.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Latest Work Area End  -->
+
+    <!-- Testemonial Area Start  -->
+    <section class="testemonial__area">
+      <div class="container">
+        <div class="testemonials">
+          <div class="testemonial">
+            <div class="row g-0">
+              <div class="col-12 col-md-7 mb-4">
+                <div class="testemonial__content">
+                  <img src="./images/quote.png" alt="" class="quote" />
+                  <h3 class="heading__primary--32 leading-48">
+                    “Metro Solver with Mixer was the best solution. I am very
+                    satisfied with the team and the work they did. I am
+                    sincerely grateful for the work and effort.”
+                  </h3>
+
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                  </div>
+
+                  <div class="testemonial__footer">
+                    <h3 class="heading__primary--24 leading-32">
+                      Katie Johnson
+                    </h3>
+                    <div class="testemonial__footer--seperator"></div>
+                    <p class="designation text__primary--18 fw-normal">
+                      Founder of Strava
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-5">
+                <div class="testemonial__img">
+                  <img src="./images/testemonial.jpg" alt="Testemonial" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testemonial">
+            <div class="row g-0">
+              <div class="col-12 col-md-7 mb-5">
+                <div class="testemonial__content">
+                  <img src="./images/quote.png" alt="" class="quote" />
+                  <h3 class="heading__primary--32 leading-48">
+                    “Metro Solver with Mixer was the best solution. I am very
+                    satisfied with the team and the work they did. I am
+                    sincerely grateful for the work and effort.”
+                  </h3>
+
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                  </div>
+
+                  <div class="testemonial__footer">
+                    <h3 class="heading__primary--24 leading-32">
+                      Katie Johnson
+                    </h3>
+                    <div class="testemonial__footer--seperator"></div>
+                    <p class="designation text__primary--18 fw-normal">
+                      Founder of Strava
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-5">
+                <div class="testemonial__img">
+                  <img src="./images/testemonial.jpg" alt="Testemonial" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testemonial">
+            <div class="row g-0">
+              <div class="col-12 col-md-7 mb-5">
+                <div class="testemonial__content">
+                  <img src="./images/quote.png" alt="" class="quote" />
+                  <h3 class="heading__primary--32 leading-48">
+                    “Metro Solver with Mixer was the best solution. I am very
+                    satisfied with the team and the work they did. I am
+                    sincerely grateful for the work and effort.”
+                  </h3>
+
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                  </div>
+
+                  <div class="testemonial__footer">
+                    <h3 class="heading__primary--24 leading-32">
+                      Katie Johnson
+                    </h3>
+                    <div class="testemonial__footer--seperator"></div>
+                    <p class="designation text__primary--18 fw-normal">
+                      Founder of Strava
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-5">
+                <div class="testemonial__img">
+                  <img src="./images/testemonial.jpg" alt="Testemonial" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testemonial">
+            <div class="row g-0">
+              <div class="col-12 col-md-7 mb-5">
+                <div class="testemonial__content">
+                  <img src="./images/quote.png" alt="" class="quote" />
+                  <h3 class="heading__primary--32 leading-48">
+                    “Metro Solver with Mixer was the best solution. I am very
+                    satisfied with the team and the work they did. I am
+                    sincerely grateful for the work and effort.”
+                  </h3>
+
+                  <div class="icons">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                  </div>
+
+                  <div class="testemonial__footer">
+                    <h3 class="heading__primary--24 leading-32">
+                      Katie Johnson
+                    </h3>
+                    <div class="testemonial__footer--seperator"></div>
+                    <p class="designation text__primary--18 fw-normal">
+                      Founder of Strava
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-5">
+                <div class="testemonial__img">
+                  <img src="./images/testemonial.jpg" alt="Testemonial" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testemonial Area End  -->
+
+    <!-- Service Area Start  -->
+    <section class="services__area">
+      <div class="container">
+        <div class="section__heading m-auto text-center">
+          <h2 class="heading__primary--64">Our Services</h2>
+          <p class="text__primary--18">
+            Enter your personal real estate sanctuary, where finding the ideal
+            home is effortless and comfortable with our assistance.
+          </p>
+        </div>
+
+        <div class="services">
+          <div class="row g-5">
+            <div class="col-md-6">
+              <div class="service border__gradiant">
+                <div class="service__inner border__gradiant--inner">
+                  <img
+                    src="./images/digital__marketing.png"
+                    alt="Digital Marketing"
+                  />
+                  <h2 class="heading__primary--32">Digital Marketing</h2>
+                  <p class="service__text fw-normal">
+                    We are constantly growing or learning and improving.Enter
+                    your personal real estate sanctuary, where finding the ideal
+                    home is effortless and comfortable with our assistance.
+                  </p>
+                  <div class="read__more--btn">
+                    <a href="#" class="read__more"> Read More </a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service border__gradiant">
+                <div class="service__inner border__gradiant--inner">
+                  <img
+                    src="./images/digital__marketing.png"
+                    alt="Digital Marketing"
+                  />
+                  <h2 class="heading__primary--32">Digital Marketing</h2>
+                  <p class="service__text fw-normal">
+                    We are constantly growing or learning and improving.Enter
+                    your personal real estate sanctuary, where finding the ideal
+                    home is effortless and comfortable with our assistance.
+                  </p>
+                  <div class="read__more--btn">
+                    <a href="#" class="read__more"> Read More </a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service border__gradiant">
+                <div class="service__inner border__gradiant--inner">
+                  <img
+                    src="./images/digital__marketing.png"
+                    alt="Digital Marketing"
+                  />
+                  <h2 class="heading__primary--32">Digital Marketing</h2>
+                  <p class="service__text fw-normal">
+                    We are constantly growing or learning and improving.Enter
+                    your personal real estate sanctuary, where finding the ideal
+                    home is effortless and comfortable with our assistance.
+                  </p>
+                  <div class="read__more--btn">
+                    <a href="#" class="read__more"> Read More </a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service border__gradiant">
+                <div class="service__inner border__gradiant--inner">
+                  <img
+                    src="./images/digital__marketing.png"
+                    alt="Digital Marketing"
+                  />
+                  <h2 class="heading__primary--32">Digital Marketing</h2>
+                  <p class="service__text fw-normal">
+                    We are constantly growing or learning and improving.Enter
+                    your personal real estate sanctuary, where finding the ideal
+                    home is effortless and comfortable with our assistance.
+                  </p>
+                  <div class="read__more--btn">
+                    <a href="#" class="read__more"> Read More </a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="service border__gradiant">
+                <div class="service__inner border__gradiant--inner">
+                  <img
+                    src="./images/digital__marketing.png"
+                    alt="Digital Marketing"
+                  />
+                  <h2 class="heading__primary--32">Digital Marketing</h2>
+                  <p class="service__text fw-normal">
+                    We are constantly growing or learning and improving.Enter
+                    your personal real estate sanctuary, where finding the ideal
+                    home is effortless and comfortable with our assistance.
+                  </p>
+                  <div class="read__more--btn">
+                    <a href="#" class="read__more"> Read More </a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service Area End  -->
+
+    <!-- Counter Area Start  -->
+    <section class="counter__area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col col-lg-4">
+            <div class="counter">
+              <div class="number">
+                <span class="count" data-count="50000">0</span>
+                <img src="./images/counter.png" alt="Plus" />
+              </div>
+              <h6>Current Clients</h6>
+            </div>
+          </div>
+          <div class="col col-lg-4">
+            <div class="counter">
+              <div class="number">
+                <span class="count" data-count="150">0</span>
+                <img src="./images/counter.png" alt="Plus" />
+              </div>
+              <h6>Current Clients</h6>
+            </div>
+          </div>
+          <div class="col col-lg-4">
+            <div class="counter">
+              <div class="number">
+                <span class="count" data-count="150">0</span>
+                <img src="./images/counter.png" alt="Plus" />
+              </div>
+              <h6>Current Clients</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Counter Area End  -->
+
+    <!-- Contact Form Start  -->
+    <section class="contact__area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-5">
+            <div class="contact__info mb-5">
+              <img
+                src="./images/contact__logo.png"
+                alt=""
+                class="contact__logo"
+              />
+              <h3 class="heading__primary--64">
+                Still Have <br />
+                A Questions?
+              </h3>
+
+              <div class="icons">
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-tiktok"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 padding__left">
+            <div class="contact__form">
+              <form action="#">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form__group">
+                      <label for="name">Full Name</label>
+                      <div class="form__group--inner">
+                        <input type="text" placeholder="Enter Your Full Name" />
+                      </div>
+                      <span class="error success"
+                        >Error info, replaces help text if present.</span
+                      >
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form__group">
+                      <label for="name">Email</label>
+                      <div class="form__group--inner">
+                        <input
+                          type="email"
+                          placeholder="Enter Your emai"
+                          class="error"
+                        />
+                      </div>
+                      <span class="error success"
+                        >Error info, replaces help text if present.</span
+                      >
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form__group">
+                      <label for="name">Whatsapp/Phone</label>
+                      <div class="form__group--inner">
+                        <input
+                          type="number"
+                          placeholder="Enter Your Whatsapp"
+                        />
+                      </div>
+                      <span>Error info, replaces help text if present.</span>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="form__group">
+                      <label for="name">Address</label>
+                      <div class="form__group--inner">
+                        <select name="" id="" class="custom-select">
+                          <option value="Hello">Kathryn Murphy</option>
+                          <option value="Hello">Kacob Jones</option>
+                          <option value="Hello">Konald Richards</option>
+                          <option value="Hello">Kourtney Henry</option>
+                        </select>
+                      </div>
+                      <span>Error info, replaces help text if present.</span>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form__group error">
+                      <label for="date">Date</label>
+                      <div class="form__group--inner">
+                        <textarea name="" id="" cols="30" rows="5"></textarea>
+                      </div>
+                      <span>Error info, replaces help text if present.</span>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="btn__primary btn__lg btn__wide">
+                  <div class="btn__primary--inner">
+                    <img src="./images/btn__img.png" alt="Button" />
+                    <span>View More</span>
+                  </div>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Form End  -->
+
+    <!-- Agents Area Start  -->
+    <section class="agents__area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="section__heading">
+              <h3 class="heading__primary--64">Meet Our Agents</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="agents__category">
+            <ul class="d-flex flex-wrap justify-content-center">
+              <li data-filter="*" class="active">
+                <span>All</span>
+              </li>
+              <li data-filter=".agency"><span> Agency </span></li>
+              <li data-filter=".leadership"><span>Leadership</span></li>
+              <li data-filter=".creative">
+                <span>Creative</span>
+              </li>
+              <li data-filter=".growmarketing"><span>Grow Marketing</span></li>
+              <li data-filter=".technology"><span>Technology</span></li>
+            </ul>
+          </div>
+
+          <div class="agents">
+            <div class="row g-4 isotope_tab">
+              <div class="col-6 col-lg-3 agency">
+                <div class="agent text-center">
+                  <img
+                    src="./images/agents-1.png"
+                    alt="Agents"
+                    class="agent__img"
+                  />
+                  <div class="agent__info">
+                    <div class="info__box">
+                      <h5 class="heading__primary--24">Nayemul Karim</h5>
+                      <p class="text__primary--18">Founder and Director</p>
+                    </div>
+                    <img src="./images/agent.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3 leadership">
+                <div class="agent text-center">
+                  <img
+                    src="./images/agents-1.png"
+                    alt="Agents"
+                    class="agent__img"
+                  />
+                  <div class="agent__info">
+                    <div class="info__box">
+                      <h5 class="heading__primary--24">Latisha Miles</h5>
+                      <p class="text__primary--18">Founder and Director</p>
+                    </div>
+                    <img src="./images/agent.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3 creative">
+                <div class="agent text-center">
+                  <img
+                    src="./images/agents-1.png"
+                    alt="Agents"
+                    class="agent__img"
+                  />
+                  <div class="agent__info">
+                    <div class="info__box">
+                      <h5 class="heading__primary--24">Nayemul Karim</h5>
+                      <p class="text__primary--18">Founder and Director</p>
+                    </div>
+                    <img src="./images/agent.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3 growmarketing">
+                <div class="agent text-center">
+                  <img
+                    src="./images/agents-1.png"
+                    alt="Agents"
+                    class="agent__img"
+                  />
+                  <div class="agent__info">
+                    <div class="info__box">
+                      <h5 class="heading__primary--24">Nayemul Karim</h5>
+                      <p class="text__primary--18">Founder and Director</p>
+                    </div>
+                    <img src="./images/agent.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3 technology">
+                <div class="agent text-center">
+                  <img
+                    src="./images/agents-1.png"
+                    alt="Agents"
+                    class="agent__img"
+                  />
+                  <div class="agent__info">
+                    <div class="info__box">
+                      <h5 class="heading__primary--24">Nayemul Karim</h5>
+                      <p class="text__primary--18">Founder and Director</p>
+                    </div>
+                    <img src="./images/agent.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3 agency">
+                <div class="agent text-center">
+                  <img
+                    src="./images/agents-1.png"
+                    alt="Agents"
+                    class="agent__img"
+                  />
+                  <div class="agent__info">
+                    <div class="info__box">
+                      <h5 class="heading__primary--24">Nayemul Karim</h5>
+                      <p class="text__primary--18">Founder and Director</p>
+                    </div>
+                    <img src="./images/agent.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Agents Area End  -->
+
+    <!-- Question Area Start  -->
+    <section class="question__area">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-12 col-md-6 mb-5">
+            <div class="question">
+              <div class="section__heading">
+                <h3 class="heading__primary--64">
+                  Got Questions? We've got Answers
+                </h3>
+              </div>
+              <div class="question__list">
+                <ul role="tablist">
+                  <li
+                    class="active"
+                    id="digital-marketing-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#digital-marketing"
+                    role="tab"
+                    aria-controls="digital marketing"
+                    aria-selected="true"
+                  >
+                    Digital Marketing
+                  </li>
+                  <li
+                    id="web-software-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#web-software"
+                    type="button"
+                    role="tab"
+                    aria-controls="profile"
+                    aria-selected="false"
+                  >
+                    "Web & Software
+                  </li>
+                  <li
+                    id="graphic-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#graphic"
+                    type="button"
+                    role="tab"
+                    aria-controls="graphic"
+                    aria-selected="false"
+                  >
+                    Graphic Design
+                  </li>
+                  <li
+                    id="frontend-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#frontend"
+                    type="button"
+                    role="tab"
+                    aria-controls="frontend"
+                    aria-selected="false"
+                  >
+                    Front-end Development
+                  </li>
+                  <li
+                    id="uiux-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#uiux"
+                    type="button"
+                    role="tab"
+                    aria-controls="uiux"
+                    aria-selected="false"
+                  >
+                    UI UX Design
+                  </li>
+                  <li
+                    id="mobileapp-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#mobileapp"
+                    type="button"
+                    role="tab"
+                    aria-controls="mobileapp"
+                    aria-selected="false"
+                  >
+                    Mobile App Design
+                  </li>
+                  <li
+                    id="generalinfo-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#generalinfo"
+                    type="button"
+                    role="tab"
+                    aria-controls="generalinfo"
+                    aria-selected="false"
+                  >
+                    Getting Started and General Info
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 align-self-center">
+            <div class="question__accordion">
+              <div class="accordion" id="accordionExample">
+                <div class="tab-content" id="myTabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="digital-marketing"
+                    role="tabpanel"
+                    aria-labelledby="digital-marketing-tab"
+                  >
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Minus reiciendis, eius provident nobis quos unde
+                          vero aspernatur dolores? Eaque, eos.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Eos, quisquam.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="true"
+                        aria-controls="collapseThree"
+                      >
+                        Accordion Item #1
+                      </div>
+                      <div
+                        id="collapseThree"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          <p>
+                            We provide SEO, social media management, email
+                            marketing, content marketing, PPC campaigns, and
+                            more.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="web-software"
+                    role="tabpanel"
+                    aria-labelledby="web-software-tab"
+                  >
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          We provide SEO, social media management, email
+                          marketing, content marketing, PPC campaigns, and more.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          <strong
+                            >This is the second item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion__body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="graphic"
+                    role="tabpanel"
+                    aria-labelledby="graphic-tab"
+                  >
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Exercitationem illum odit sunt in ab officia
+                          corrupti quia similique voluptatem, sint qui impedit
+                          asperiores, ipsum modi, sapiente repellendus labore
+                          nam. Nemo!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        <p>What services do you offer ...</p>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          <strong
+                            >This is the second item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion__body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="frontend"
+                    role="tabpanel"
+                    aria-labelledby="frontend-tab"
+                  >
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          We provide SEO, social media management, email
+                          marketing, content marketing, PPC campaigns, and more.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          <strong
+                            >This is the second item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion__body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="uiux"
+                    role="tabpanel"
+                    aria-labelledby="uiux-tab"
+                  >
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          We provide SEO, social media management, email
+                          marketing, content marketing, PPC campaigns, and more.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          <strong
+                            >This is the second item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion__body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="mobileapp"
+                    role="tabpanel"
+                    aria-labelledby="mobileapp-tab"
+                  >
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          We provide SEO, social media management, email
+                          marketing, content marketing, PPC campaigns, and more.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          <strong
+                            >This is the second item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion__body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="generalinfo"
+                    role="tabpanel"
+                    aria-labelledby="generalinfo-tab"
+                  >
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          We provide SEO, social media management, email
+                          marketing, content marketing, PPC campaigns, and more.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <div
+                        class="accordion__head"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        <p>What services do you offer in digital marketing?</p>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion__body">
+                          <strong
+                            >This is the second item's accordion body.</strong
+                          >
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the
+                          <code>.accordion__body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Question Area End  -->
+
+    <!-- Google Map Area Start -->
+    <section class="map__area">
+      <div class="container">
+        <div class="row">
+          <div class="map">
+            <img src="./images/map.jpg" alt="Map" class="map__img" />
+
+            <div class="map__location location-1">
+              <div class="map__location--inner">
+                <i class="fa-solid fa-location-dot map__marker"></i>
+
+                <div class="map__address bottom">
+                  <div class="address__head">
+                    <div class="address__head--inner">
+                      <div class="gradiant__border">
+                        <span>#1</span>
+                      </div>
+                      <h5>Metro Solver</h5>
+                    </div>
+                  </div>
+
+                  <div class="address__body">
+                    <div class="address__body--single">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <p>
+                        Head office: Metro Solver Limited Grantham Road, London
+                        E12 5LX, United Kingdom
+                      </p>
+                    </div>
+
+                    <div class="address__body--single">
+                      <i class="fa-solid fa-phone"></i>
+                      <p>+88 664 455446</p>
+                    </div>
+                    <div class="address__body--single">
+                      <i class="fa-solid fa-tty"></i>
+                      <p>455446</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="map__location location-2">
+              <div class="map__location--inner">
+                <i class="fa-solid fa-location-dot map__marker"></i>
+
+                <div class="map__address right">
+                  <div class="address__head">
+                    <div class="address__head--inner">
+                      <div class="gradiant__border">
+                        <span>#1</span>
+                      </div>
+                      <h5>Metro Solver</h5>
+                    </div>
+                  </div>
+
+                  <div class="address__body">
+                    <div class="address__body--single">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <p>
+                        Head office: Metro Solver Limited Grantham Road, London
+                        E12 5LX, United Kingdom
+                      </p>
+                    </div>
+
+                    <div class="address__body--single">
+                      <i class="fa-solid fa-phone"></i>
+                      <p>+88 664 455446</p>
+                    </div>
+                    <div class="address__body--single">
+                      <i class="fa-solid fa-tty"></i>
+                      <p>455446</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="map__location location-3">
+              <div class="map__location--inner">
+                <i class="fa-solid fa-location-dot map__marker"></i>
+
+                <div class="map__address right">
+                  <div class="address__head">
+                    <div class="address__head--inner">
+                      <div class="gradiant__border">
+                        <span>#1</span>
+                      </div>
+                      <h5>Metro Solver</h5>
+                    </div>
+                  </div>
+
+                  <div class="address__body">
+                    <div class="address__body--single">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <p>
+                        Head office: Metro Solver Limited Grantham Road, London
+                        E12 5LX, United Kingdom
+                      </p>
+                    </div>
+
+                    <div class="address__body--single">
+                      <i class="fa-solid fa-phone"></i>
+                      <p>+88 664 455446</p>
+                    </div>
+                    <div class="address__body--single">
+                      <i class="fa-solid fa-tty"></i>
+                      <p>455446</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="map__location location-4">
+              <div class="map__location--inner">
+                <i class="fa-solid fa-location-dot map__marker"></i>
+
+                <div class="map__address left">
+                  <div class="address__head">
+                    <div class="address__head--inner">
+                      <div class="gradiant__border">
+                        <span>#1</span>
+                      </div>
+                      <h5>Metro Solver</h5>
+                    </div>
+                  </div>
+
+                  <div class="address__body">
+                    <div class="address__body--single">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <p>
+                        Head office: Metro Solver Limited Grantham Road, London
+                        E12 5LX, United Kingdom
+                      </p>
+                    </div>
+
+                    <div class="address__body--single">
+                      <i class="fa-solid fa-phone"></i>
+                      <p>+88 664 455446</p>
+                    </div>
+                    <div class="address__body--single">
+                      <i class="fa-solid fa-tty"></i>
+                      <p>455446</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Google Map Area End -->
+
+    <!-- Back to top button starts  -->
+    <div class="back__to--top" id="backToTop">
+      <i class="fa-solid fa-chevron-up back__to--top--icon"></i>
+    </div>
+
+    <!-- Back to top button ends  -->
+
+    <!-- Footer Area Start  -->
+    <section class="footer__area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col col-md-8 col-lg-6">
+            <div class="newsletter">
+              <div class="section__heading m-auto text-center">
+                <h2 class="heading__primary--40">
+                  Subscribe to Our Newsletter
+                </h2>
+                <p class="text__primary--18 fw-normal">
+                  Join the 25000+ client, in our company
+                </p>
+              </div>
+
+              <div class="newsletter__input">
+                <input type="email" placeholder="Enter your Email" />
+                <button class="btn__primary btn__sm">
+                  <div class="btn__primary--inner">
+                    <img src="./images/btn__img.png" alt="Button" />
+                    <span>Subscribe</span>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-between">
+          <div class="col col-lg-2">
+            <div class="footer__menu">
+              <h5 class="title">Company</h5>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">User Profile</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col col-lg-2">
+            <div class="footer__menu">
+              <h5 class="title">Services</h5>
+              <ul>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">User Profile</a></li>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Mobile App Development</a></li>
+                <li><a href="#">Healthcare</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="footer__menu double__column">
+              <h5 class="title">Services</h5>
+              <div class="row g-4">
+                <div class="col">
+                  <div class="left">
+                    <div class="contact__group">
+                      <h6 class="title">Mail:</h6>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                    </div>
+                    <div class="contact__group">
+                      <h6 class="title">Information:</h6>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                    </div>
+                    <div class="contact__group">
+                      <h6 class="title">Job Apply:</h6>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="right">
+                    <div class="contact__group">
+                      <h6 class="title">Directions:</h6>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                    </div>
+                    <div class="contact__group">
+                      <h6 class="title">Mail:</h6>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                    </div>
+                    <div class="contact__group">
+                      <h6 class="title">Mail:</h6>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="footer__logo">
+            <img src="./images/logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Area End  -->
+
+    <section class="copyright__area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <p class="copyright">© Metro Solver. All Rights Reserved 2024</p>
+          </div>
+          <div class="col-lg-6 text-start text-lg-center">
+            <p class="copyright__text">
+              Metro Solver Ltd incorporated in England & Wales Registration
+              No:15792819
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <ul class="copyright__menu">
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/fontawesome.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/venobox.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="./js/select2.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

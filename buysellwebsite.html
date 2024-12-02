@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metro Solver</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/select-2.min.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.css" />
+    <link rel="stylesheet" href="./css/mdtimepicker.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body class="service__body">
+    <!-- Menu Area Start  -->
+    <div class="menu__area">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col d-none d-lg-block">
+            <div class="mainmenu h-100 pe-5">
+              <ul
+                class="h-100 d-flex align-items-center justify-content-between"
+              >
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                  Services
+                  <i class="fa-solid fa-chevron-down"></i>
+                  <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col col-lg-3 col-sm-start">
+            <a
+              href="#"
+              class="logo h-100 d-flex align-items-center justify-content-center"
+            >
+              <img src="./images/logo.png" alt="Logo" />
+            </a>
+          </div>
+
+          <div class="col d-none d-lg-block">
+            <div class="mainmenu h-100 ps-5">
+              <ul
+                class="h-100 d-flex align-items-center justify-content-between"
+              >
+                <li><a href="#">White Labelling</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Sign up</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2 d-lg-none">
+            <div class="h-100 d-flex align-items-center align-self-end">
+              <i class="fa-solid fa-bars p-5 menu__open ml-auto"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Menu Area End  -->
+
+    <!-- Responsive Menu Start -->
+    <div class="responsive__menu--bg"></div>
+    <div class="responsive__menu--area">
+      <div class="responsive__menu--head">
+        <img src="./images/logo.png" alt="" />
+        <i class="fa-solid fa-xmark menu__close"></i>
+      </div>
+
+      <div class="responsive__menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li class="dropdown__item">
+            <div class="text__icon">
+              <span>Service</span>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <ul class="dropdown">
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">Logo Design</a></li>
+              <li><a href="#">T-Shirt Design</a></li>
+            </ul>
+          </li>
+          <li><a href="#">White Labelling</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Sign Up</a></li>
+        </ul>
+      </div>
+
+      <div class="responsive__menu--footer mt-5">
+        <button class="btn__primary btn__sm">
+          <div class="btn__primary--inner">
+            <img src="./images/btn__img.png" alt="Button" />
+            <span>Login</span>
+          </div>
+        </button>
+        <button class="btn__primary btn__sm">
+          <div class="btn__primary--inner">
+            <img src="./images/btn__img.png" alt="Button" />
+            <span>Sign Up</span>
+          </div>
+        </button>
+      </div>
+    </div>
+    <!-- Responsive Menu End -->
+
+    <!-- Service Area Starts -->
+    <div class="service__area">
+      <div class="container">
+        <div class="row">
+          <h2 class="heading__primary--64 text-center mb-5">Buy & Sell</h2>
+
+          <div class="service__area--btn mb-48" role="tablist">
+            <button
+              class="btn__primary btn__sm active"
+              id="nav-service-logo"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-logo"
+              type="button"
+              role="tab"
+              aria-controls="nav-logo"
+              aria-selected="true"
+            >
+              <div class="btn__primary--inner">
+                <span>Domain</span>
+              </div>
+            </button>
+            <button
+              class="btn__primary btn__sm"
+              id="nav-service-static"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-static"
+              type="button"
+              role="tab"
+              aria-controls="nav-static"
+              aria-selected="false"
+            >
+              <div class="btn__primary--inner">
+                <span>Website</span>
+              </div>
+            </button>
+          </div>
+
+          <h4 class="heading__primary--32 text-center mb-3">Description</h4>
+          <p class="text__primary--16 fw-normal text-center">
+            Ideal for small businesses or websites just starting with SEO,
+            focusing on foundational elements to improve search engine presence.
+            Comprehensive package for businesses looking for a more extensive
+            SEO strategy with advanced techniques and ongoing support for
+            improved search engine visibility. Ideal for small businesses or
+            websites just starting with SEO, focusing on foundational elements
+            to improve search engine presence. Comprehensive package for
+            businesses looking for a more extensive SEO strategy with advanced
+            techniques and ongoing support for improved search engine
+            visibility.
+          </p>
+
+          <div class="pricing__plan">
+            <div class="row justify-content-center py-48">
+              <div class="col-lg-7 text-center">
+                <h3 class="heading__primary--64">
+                  Premium Domain Name for Sale
+                </h3>
+              </div>
+            </div>
+
+            <div class="tab-content">
+              <!-- logo price -->
+              <div
+                class="tab-pane fade show active"
+                id="nav-logo"
+                role="tabpanel"
+                aria-labelledby="nav-service-logo"
+              >
+                <div class="row g-5 mb-5">
+                  <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="buy__sell--domain border__gradiant">
+                      <div
+                        class="buy__sell--domain--inner border__gradiant--inner"
+                      >
+                        <div class="img__box">
+                          <img src="./images/spotify.png" alt="" />
+                        </div>
+                        <div class="subcontent">
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Type</p>
+                            <p class="subcontent__subtitle">SaaS</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Industry</p>
+                            <p class="subcontent__subtitle">Internet</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Site Age</p>
+                            <p class="subcontent__subtitle">5 Years</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Net Profile</p>
+                            <p class="subcontent__subtitle">£59.99</p>
+                          </div>
+                        </div>
+                        <div class="content__box">
+                          <p class="title">Spotify.com</p>
+                          <p class="price">£59.99</p>
+                        </div>
+                        <div class="btn__box btn__box--website">
+                          <button class="btn__primary btn__sm btn__gradiant">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Watch</span>
+                            </div>
+                          </button>
+
+                          <button class="btn__primary btn__sm">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Buy Now</span>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="buy__sell--domain border__gradiant">
+                      <div
+                        class="buy__sell--domain--inner border__gradiant--inner"
+                      >
+                        <div class="img__box">
+                          <img src="./images/spotify.png" alt="" />
+                        </div>
+                        <div class="subcontent">
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Type</p>
+                            <p class="subcontent__subtitle">SaaS</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Industry</p>
+                            <p class="subcontent__subtitle">Internet</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Site Age</p>
+                            <p class="subcontent__subtitle">5 Years</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Net Profile</p>
+                            <p class="subcontent__subtitle">£59.99</p>
+                          </div>
+                        </div>
+                        <div class="content__box">
+                          <p class="title">Spotify.com</p>
+                          <p class="price">£59.99</p>
+                        </div>
+                        <div class="btn__box btn__box--website">
+                          <button class="btn__primary btn__sm btn__gradiant">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Watch</span>
+                            </div>
+                          </button>
+
+                          <button class="btn__primary btn__sm">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Buy Now</span>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="buy__sell--domain border__gradiant">
+                      <div
+                        class="buy__sell--domain--inner border__gradiant--inner"
+                      >
+                        <div class="img__box">
+                          <img src="./images/spotify.png" alt="" />
+                        </div>
+                        <div class="subcontent">
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Type</p>
+                            <p class="subcontent__subtitle">SaaS</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Industry</p>
+                            <p class="subcontent__subtitle">Internet</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Site Age</p>
+                            <p class="subcontent__subtitle">5 Years</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Net Profile</p>
+                            <p class="subcontent__subtitle">£59.99</p>
+                          </div>
+                        </div>
+                        <div class="content__box">
+                          <p class="title">Spotify.com</p>
+                          <p class="price">£59.99</p>
+                        </div>
+                        <div class="btn__box btn__box--website">
+                          <button class="btn__primary btn__sm btn__gradiant">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Watch</span>
+                            </div>
+                          </button>
+
+                          <button class="btn__primary btn__sm">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Buy Now</span>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="buy__sell--domain border__gradiant">
+                      <div
+                        class="buy__sell--domain--inner border__gradiant--inner"
+                      >
+                        <div class="img__box">
+                          <img src="./images/spotify.png" alt="" />
+                        </div>
+                        <div class="subcontent">
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Type</p>
+                            <p class="subcontent__subtitle">SaaS</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Industry</p>
+                            <p class="subcontent__subtitle">Internet</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Site Age</p>
+                            <p class="subcontent__subtitle">5 Years</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Net Profile</p>
+                            <p class="subcontent__subtitle">£59.99</p>
+                          </div>
+                        </div>
+                        <div class="content__box">
+                          <p class="title">Spotify.com</p>
+                          <p class="price">£59.99</p>
+                        </div>
+                        <div class="btn__box btn__box--website">
+                          <button class="btn__primary btn__sm btn__gradiant">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Watch</span>
+                            </div>
+                          </button>
+
+                          <button class="btn__primary btn__sm">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Buy Now</span>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="buy__sell--domain border__gradiant">
+                      <div
+                        class="buy__sell--domain--inner border__gradiant--inner"
+                      >
+                        <div class="img__box">
+                          <img src="./images/spotify.png" alt="" />
+                        </div>
+                        <div class="subcontent">
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Type</p>
+                            <p class="subcontent__subtitle">SaaS</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Industry</p>
+                            <p class="subcontent__subtitle">Internet</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Site Age</p>
+                            <p class="subcontent__subtitle">5 Years</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Net Profile</p>
+                            <p class="subcontent__subtitle">£59.99</p>
+                          </div>
+                        </div>
+                        <div class="content__box">
+                          <p class="title">Spotify.com</p>
+                          <p class="price">£59.99</p>
+                        </div>
+                        <div class="btn__box btn__box--website">
+                          <button class="btn__primary btn__sm btn__gradiant">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Watch</span>
+                            </div>
+                          </button>
+
+                          <button class="btn__primary btn__sm">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Buy Now</span>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="buy__sell--domain border__gradiant">
+                      <div
+                        class="buy__sell--domain--inner border__gradiant--inner"
+                      >
+                        <div class="img__box">
+                          <img src="./images/spotify.png" alt="" />
+                        </div>
+                        <div class="subcontent">
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Type</p>
+                            <p class="subcontent__subtitle">SaaS</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Industry</p>
+                            <p class="subcontent__subtitle">Internet</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Site Age</p>
+                            <p class="subcontent__subtitle">5 Years</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Net Profile</p>
+                            <p class="subcontent__subtitle">£59.99</p>
+                          </div>
+                        </div>
+                        <div class="content__box">
+                          <p class="title">Spotify.com</p>
+                          <p class="price">£59.99</p>
+                        </div>
+                        <div class="btn__box btn__box--website">
+                          <button class="btn__primary btn__sm btn__gradiant">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Watch</span>
+                            </div>
+                          </button>
+
+                          <button class="btn__primary btn__sm">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Buy Now</span>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-center mt-48">
+                    <button class="btn__primary btn__sm btn__gradiant">
+                      <div class="btn__primary--inner">
+                        <img src="./images/btn__img.png" alt="" />
+                        <span>View More</span>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Static Price  -->
+              <div
+                class="tab-pane fade"
+                id="nav-static"
+                role="tabpanel"
+                aria-labelledby="nav-service-static"
+              >
+                <div class="row g-5 mb-5">
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="buy__sell--domain border__gradiant">
+                      <div
+                        class="buy__sell--domain--inner border__gradiant--inner"
+                      >
+                        <div class="img__box">
+                          <img src="./images/spotify.png" alt="" />
+                        </div>
+                        <div class="subcontent">
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Type</p>
+                            <p class="subcontent__subtitle">SaaS</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Industry</p>
+                            <p class="subcontent__subtitle">Internet</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Site Age</p>
+                            <p class="subcontent__subtitle">5 Years</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Net Profile</p>
+                            <p class="subcontent__subtitle">£59.99</p>
+                          </div>
+                        </div>
+                        <div class="content__box">
+                          <p class="title">Spotify.com</p>
+                          <p class="price">£59.99</p>
+                        </div>
+                        <div class="btn__box btn__box--website">
+                          <button class="btn__primary btn__sm btn__gradiant">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Watch</span>
+                            </div>
+                          </button>
+
+                          <button class="btn__primary btn__sm">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Buy Now</span>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="buy__sell--domain border__gradiant">
+                      <div
+                        class="buy__sell--domain--inner border__gradiant--inner"
+                      >
+                        <div class="img__box">
+                          <img src="./images/spotify.png" alt="" />
+                        </div>
+                        <div class="subcontent">
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Type</p>
+                            <p class="subcontent__subtitle">SaaS</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Industry</p>
+                            <p class="subcontent__subtitle">Internet</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Site Age</p>
+                            <p class="subcontent__subtitle">5 Years</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Net Profile</p>
+                            <p class="subcontent__subtitle">£59.99</p>
+                          </div>
+                        </div>
+                        <div class="content__box">
+                          <p class="title">Spotify.com</p>
+                          <p class="price">£59.99</p>
+                        </div>
+                        <div class="btn__box btn__box--website">
+                          <button class="btn__primary btn__sm btn__gradiant">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Watch</span>
+                            </div>
+                          </button>
+
+                          <button class="btn__primary btn__sm">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Buy Now</span>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="buy__sell--domain border__gradiant">
+                      <div
+                        class="buy__sell--domain--inner border__gradiant--inner"
+                      >
+                        <div class="img__box">
+                          <img src="./images/spotify.png" alt="" />
+                        </div>
+                        <div class="subcontent">
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Type</p>
+                            <p class="subcontent__subtitle">SaaS</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Industry</p>
+                            <p class="subcontent__subtitle">Internet</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Site Age</p>
+                            <p class="subcontent__subtitle">5 Years</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Net Profile</p>
+                            <p class="subcontent__subtitle">£59.99</p>
+                          </div>
+                        </div>
+                        <div class="content__box">
+                          <p class="title">Spotify.com</p>
+                          <p class="price">£59.99</p>
+                        </div>
+                        <div class="btn__box btn__box--website">
+                          <button class="btn__primary btn__sm btn__gradiant">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Watch</span>
+                            </div>
+                          </button>
+
+                          <button class="btn__primary btn__sm">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Buy Now</span>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="buy__sell--domain border__gradiant">
+                      <div
+                        class="buy__sell--domain--inner border__gradiant--inner"
+                      >
+                        <div class="img__box">
+                          <img src="./images/spotify.png" alt="" />
+                        </div>
+                        <div class="subcontent">
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Type</p>
+                            <p class="subcontent__subtitle">SaaS</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Industry</p>
+                            <p class="subcontent__subtitle">Internet</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Site Age</p>
+                            <p class="subcontent__subtitle">5 Years</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Net Profile</p>
+                            <p class="subcontent__subtitle">£59.99</p>
+                          </div>
+                        </div>
+                        <div class="content__box">
+                          <p class="title">Spotify.com</p>
+                          <p class="price">£59.99</p>
+                        </div>
+                        <div class="btn__box btn__box--website">
+                          <button class="btn__primary btn__sm btn__gradiant">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Watch</span>
+                            </div>
+                          </button>
+
+                          <button class="btn__primary btn__sm">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Buy Now</span>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="buy__sell--domain border__gradiant">
+                      <div
+                        class="buy__sell--domain--inner border__gradiant--inner"
+                      >
+                        <div class="img__box">
+                          <img src="./images/spotify.png" alt="" />
+                        </div>
+                        <div class="subcontent">
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Type</p>
+                            <p class="subcontent__subtitle">SaaS</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Industry</p>
+                            <p class="subcontent__subtitle">Internet</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Site Age</p>
+                            <p class="subcontent__subtitle">5 Years</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Net Profile</p>
+                            <p class="subcontent__subtitle">£59.99</p>
+                          </div>
+                        </div>
+                        <div class="content__box">
+                          <p class="title">Spotify.com</p>
+                          <p class="price">£59.99</p>
+                        </div>
+                        <div class="btn__box btn__box--website">
+                          <button class="btn__primary btn__sm btn__gradiant">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Watch</span>
+                            </div>
+                          </button>
+
+                          <button class="btn__primary btn__sm">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Buy Now</span>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                    <div class="buy__sell--domain border__gradiant">
+                      <div
+                        class="buy__sell--domain--inner border__gradiant--inner"
+                      >
+                        <div class="img__box">
+                          <img src="./images/spotify.png" alt="" />
+                        </div>
+                        <div class="subcontent">
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Type</p>
+                            <p class="subcontent__subtitle">SaaS</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Industry</p>
+                            <p class="subcontent__subtitle">Internet</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Site Age</p>
+                            <p class="subcontent__subtitle">5 Years</p>
+                          </div>
+                          <div class="subcontent__single">
+                            <p class="subcontent__title">Net Profile</p>
+                            <p class="subcontent__subtitle">£59.99</p>
+                          </div>
+                        </div>
+                        <div class="content__box">
+                          <p class="title">Spotify.com</p>
+                          <p class="price">£59.99</p>
+                        </div>
+                        <div class="btn__box btn__box--website">
+                          <button class="btn__primary btn__sm btn__gradiant">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Watch</span>
+                            </div>
+                          </button>
+
+                          <button class="btn__primary btn__sm">
+                            <div class="btn__primary--inner">
+                              <img src="./images/btn__img.png" alt="" />
+                              <span>Buy Now</span>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-center mt-48">
+                    <button class="btn__primary btn__sm btn__gradiant">
+                      <div class="btn__primary--inner">
+                        <img src="./images/btn__img.png" alt="" />
+                        <span>View More</span>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service Area End -->
+
+    <!-- Latest Works Start  -->
+    <div class="latest__work">
+      <div class="container">
+        <h3 class="heading__primary--64 text-center">
+          Latest Graphics Design Works
+        </h3>
+        <div class="row g-5 my-48 latest__work--slider">
+          <div class="col-lg-3">
+            <img
+              src="./images/graphics.jpg"
+              alt="Graphics"
+              class="latest__work--img"
+            />
+          </div>
+          <div class="col-lg-3">
+            <img
+              src="./images/graphics.jpg"
+              alt="Graphics"
+              class="latest__work--img"
+            />
+          </div>
+          <div class="col-lg-3">
+            <img
+              src="./images/graphics.jpg"
+              alt="Graphics"
+              class="latest__work--img"
+            />
+          </div>
+          <div class="col-lg-3">
+            <img
+              src="./images/graphics.jpg"
+              alt="Graphics"
+              class="latest__work--img"
+            />
+          </div>
+          <div class="col-lg-3">
+            <img
+              src="./images/graphics.jpg"
+              alt="Graphics"
+              class="latest__work--img"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="site__info">
+            <h3 class="heading__primary--32 title">Why You Need Website</h3>
+            <h6 class="text__primary--18 mb-4 fw-normal mb-5">
+              Metro Solver ("we," "us," or "our") is committed to protecting
+              your privacy. This Privacy Policy explains how we collect, use,
+              disclose, and safeguard your information when you visit our
+              website and use our digital services. By accessing or using our
+              services, you agree to this Privacy Policy.
+            </h6>
+            <ul class="site__info--list">
+              <li>
+                Professional Growth : We provide continuous learning
+                opportunities through workshops, training sessions, and
+                mentorship programs to help you develop your skills and advance
+                your career.
+              </li>
+              <li>
+                Innovative Projects : Work on diverse and exciting projects that
+                challenge your creativity and technical expertise.
+              </li>
+              <li>
+                Collaborative Environment : Join a team of like-minded
+                professionals who are dedicated to collaboration, knowledge
+                sharing, and mutual support.
+              </li>
+              <li>
+                Flexible Work Arrangements : Enjoy the flexibility to balance
+                your work and personal life, with options for remote work and
+                flexible hours.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Latest Works End  -->
+
+    <!-- Service booking starts -->
+    <div class="form__area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="section__heading text-center">
+              <h2 class="heading__primary--64">Service Booking</h2>
+              <p class="text__primary--18">
+                Based on the description of Metro Solver and the image provided,
+                here is a 6-step process that Metro Solver uses to scale a
+                customer's business
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form__area--inner">
+            <form action="#" class="form">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="form__group">
+                    <label for="name">Full Name</label>
+                    <div class="form__group--inner">
+                      <input type="text" placeholder="Enter Your Full Name" />
+                    </div>
+                    <span class="error success"
+                      >Error info, replaces help text if present.</span
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form__group">
+                    <label for="name">Username</label>
+                    <div class="form__group--inner">
+                      <input
+                        type="text"
+                        placeholder="Enter Your Name"
+                        class="error"
+                      />
+                    </div>
+                    <span class="error success"
+                      >Error info, replaces help text if present.</span
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form__group">
+                    <label for="name">Email</label>
+                    <div class="form__group--inner">
+                      <input type="email" placeholder="Enter Your Name" />
+                    </div>
+                    <span>Error info, replaces help text if present.</span>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form__group error">
+                    <label for="name">Phone Number</label>
+                    <div class="form__group--inner">
+                      <input type="number" placeholder="Enter Your Name" />
+                    </div>
+                    <span>Error info, replaces help text if present.</span>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form__group error">
+                    <label for="date">Date</label>
+                    <div class="form__group--inner">
+                      <input
+                        type="text"
+                        name="date"
+                        id="date"
+                        class="datepicker"
+                        placeholder="Select a date"
+                      />
+                      <i class="fa-solid fa-calendar-days input-icon"></i>
+                    </div>
+                    <span>Error info, replaces help text if present.</span>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form__group error">
+                    <label for="date">Booking Time</label>
+                    <div class="form__group--inner">
+                      <input
+                        type="text"
+                        name="time"
+                        id="time"
+                        class="timepicker"
+                        placeholder="Select Date"
+                      />
+                      <i class="fa-regular fa-clock input-icon"></i>
+                    </div>
+                    <span>Error info, replaces help text if present.</span>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form__group error">
+                    <label for="address">Address</label>
+                    <div class="form__group--inner">
+                      <input type="text" placeholder="Enter your Address" />
+                    </div>
+                    <span>Error info, replaces help text if present.</span>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form__group error">
+                    <label for="address"
+                      >Which Are You Looking for Support in?</label
+                    >
+                    <div class="form__group--inner">
+                      <input type="text" placeholder="Enter text" />
+                    </div>
+                    <span>Error info, replaces help text if present.</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row justify-content-center">
+                <div class="d-flex justify-content-center mt-4">
+                  <button class="btn__primary btn__sm" type="button">
+                    <div class="btn__primary--inner">
+                      <img src="./images/btn__img.png" alt="Button" />
+                      <span>Booking</span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service booking ends -->
+
+    <!-- Footer Area Start  -->
+    <div class="footer__area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col col-md-8 col-lg-6">
+            <div class="newsletter">
+              <div class="section__heading m-auto text-center">
+                <h2 class="heading__primary--40">
+                  Subscribe to Our Newsletter
+                </h2>
+                <p class="text__primary--18 fw-normal">
+                  Join the 25000+ client, in our company
+                </p>
+              </div>
+
+              <div class="newsletter__input">
+                <input type="email" placeholder="Enter your Email" />
+                <button class="btn__primary btn__sm">
+                  <div class="btn__primary--inner">
+                    <img src="./images/btn__img.png" alt="Button" />
+                    <span>Subscribe</span>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-between">
+          <div class="col col-lg-2">
+            <div class="footer__menu">
+              <h5 class="title">Company</h5>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">User Profile</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col col-lg-2">
+            <div class="footer__menu">
+              <h5 class="title">Services</h5>
+              <ul>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">User Profile</a></li>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Mobile App Development</a></li>
+                <li><a href="#">Healthcare</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="footer__menu double__column">
+              <h5 class="title">Services</h5>
+              <div class="row g-4">
+                <div class="col">
+                  <div class="left">
+                    <div class="contact__group">
+                      <h6 class="title">Mail:</h6>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                    </div>
+                    <div class="contact__group">
+                      <h6 class="title">Information:</h6>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                    </div>
+                    <div class="contact__group">
+                      <h6 class="title">Job Apply:</h6>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="right">
+                    <div class="contact__group">
+                      <h6 class="title">Directions:</h6>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                    </div>
+                    <div class="contact__group">
+                      <h6 class="title">Mail:</h6>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                    </div>
+                    <div class="contact__group">
+                      <h6 class="title">Mail:</h6>
+                      <div class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>official@metrosolver.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="footer__logo">
+            <img src="./images/footer__logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Area End  -->
+
+    <div class="copyright__area">
+      <div class="container">
+        <div class="copyright__area--inner">
+          <p class="copyright">© Metro Solver. All Rights Reserved 2024</p>
+
+          <p class="copyright__text">
+            Metro Solver Ltd incorporated in England & Wales Registration
+            No:15792819
+          </p>
+
+          <ul class="copyright__menu">
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/fontawesome.min.js"></script>
+    <script src="./js/select2.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/mdtimepicker.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
